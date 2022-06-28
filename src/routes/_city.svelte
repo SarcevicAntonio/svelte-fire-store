@@ -9,8 +9,6 @@
 
 	let edit = false;
 	const store = fireDocumentStore<ICity>(db, 'cities/' + city._id, city);
-
-	let input: HTMLInputElement;
 </script>
 
 {#if $store}
@@ -18,7 +16,7 @@
 		{#if !edit}
 			{$store.name} <i>({$store._id})</i>
 		{:else}
-			<input bind:value={$store.name} bind:this={input} />
+			<input bind:value={$store.name} />
 		{/if}
 		<button on:click={() => (edit = !edit)}>✏️</button>
 		<button
