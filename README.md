@@ -50,9 +50,9 @@ Currently has two kinds of stores for collections and single documents.
 
 <button
 	on:click={() => {
-      docStore.delete();
-      dispatch('delete');
-    }}
+		docStore.delete();
+		dispatch('delete');
+	}}
 >
 	Delete
 </button>
