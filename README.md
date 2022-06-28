@@ -11,7 +11,7 @@ Currently has two kinds of stores for collections and single documents.
 ```svelte
 <script>
 	const collectionStore = fireCollectionStore<ICity>(db, 'cities', [where('name', '!=', 'Bielefeld')]);
-<script>
+</script>
 
 {#if $collectionStore}
 	<ul>
