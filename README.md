@@ -1,19 +1,23 @@
 # svelte-fire-store
 
-Experimental Firestore Svelte Store with Typescript Support.
+Experimental Firestore Svelte Stores with Typescript Support.
+
+Source code for stores can be found at [/src/lib/index.ts](/src/lib/index.ts).
+
+Currently has two kinds of stores for collections and single documents.
 
 Features:
 
 - read
-  - subscribe (collection, document)
-  - refresh (collection, document)
+  - subscribe (collection and document)
+  - refresh (collection and document)
 - write
-  - set & update (document)
-  - insert (collection)
-  - delete (document)
+  - set & update (only document)
+  - insert (only collection)
+  - delete (only document)
 
 Planned:
 
-- loading / stale data indicator
+- set, update & delete for entries of collection
 - realtime
-- collection write
+- loading / stale data indicator
