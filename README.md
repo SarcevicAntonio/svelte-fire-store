@@ -1,3 +1,9 @@
+
+⚠️ if you have come here, you should probably check out [codediodeio/sveltefire](https://github.com/codediodeio/sveltefire)
+
+
+---
+
 # svelte-fire-store
 
 Experimental Firestore Svelte Stores with Typescript Support.
