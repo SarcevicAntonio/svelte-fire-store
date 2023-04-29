@@ -1,5 +1,5 @@
 
-⚠️ if you have come here, you should probably check out [codediodeio/sveltefire](https://github.com/codediodeio/sveltefire)
+# **⚠️ if you have come here, you should probably check out [codediodeio/sveltefire](https://github.com/codediodeio/sveltefire)** instead
 
 
 ---
